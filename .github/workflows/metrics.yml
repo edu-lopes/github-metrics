@@ -16,3 +16,14 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: edu-lopes
+
+          # Base visual
+          config_theme: classic
+          config_color_scheme: dark
+          config_display: compact
+
+          # Remove azul
+          config_accent_color: "484f58"
+
+          # Layout mais limpo
+          config_header: false
